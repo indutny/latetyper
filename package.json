@@ -1,0 +1,20 @@
+{
+  "name": "latetyper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Measure typing latency",
+  "bin": {
+    "latetyper": "out/Release/latetyper"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "gypkg build"
+  },
+  "author": "Fedor Indutny <fedor@indutny.com>",
+  "license": "MIT",
+  "gypfile": true,
+  "dependencies": {
+    "gypkg": "^2.7.5"
+  }
+}
